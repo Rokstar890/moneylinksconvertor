@@ -10,7 +10,7 @@ bot = Client('AdlinkFly shortener bot',
              workers=50,
              sleep_threshold=10)
 
-print("Developer: @pandaznetwork , Join & Share Channel")
+print("Developer: @netflix_india_007 , Join & Share Channel")
 print("Bot is Started Now")
 
 @bot.on_message(filters.command('start') & filters.private)
@@ -19,7 +19,7 @@ async def start(client, message):
         InlineKeyboardButton('Updates Channel', url=UPDATES_CHANNEL),
         InlineKeyboardButton('Support Group', url=SUPPORT_GROUP)
     ],[
-        InlineKeyboardButton('Deploy', url='https://github.com/pandaznetwork/Adlinkflyshortnerbot')
+        InlineKeyboardButton('Deploy', url='https://github.com/rokstar890/Adlinkflyshortnerbot')
     ]]
     text = """**Just send me link and get short link, You can also send multiple links seperated by a space or enter."""
     await message.reply(f"👋 Hello {message.from_user.mention},\n\nI'm {WEB_NAME} Shortner bot. {text}", reply_markup=InlineKeyboardMarkup(btn))    
