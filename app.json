@@ -7,8 +7,8 @@
         "AdLinkFly Shortener Bot",
         "Telegram Shortener Bot"
     ],
-    "website": "https://github.com/pandaznetwork/Adlinkflyshortnerbot",
-    "repository": "https://github.com/pandaznetwork/Adlinkflyshortnerbot",
+    "website": "https://github.com/rokstar890/Adlinkflyshortnerbot",
+    "repository": "https://github.com/rokstar890/Adlinkflyshortnerbot",
     "logo": "https://ibb.co/kMVxrCj",
     "env": {
         "API_HASH": {
@@ -24,7 +24,7 @@
             "required": true
         },
         "API_URL": {
-            "description": "For Example: https://pandaznetwork.com/api",
+            "description": "For Example: https://linksmoney.in/api",
             "required": true
         },
         "BOT_TOKEN": {
@@ -32,15 +32,15 @@
             "required": true
         },
         "WEB_NAME": {
-            "description": "Your Website Name For Example: PandazNetwork",
+            "description": "Your Website Name For Example: linksmoney",
             "required": true
         },
         "SUPPORT_GROUP": {
-            "description": "For Example: https://t.me/pandaztalks",
+            "description": "For Example: https://t.me/linksmoneyofficial",
             "required": false
         },
         "UPDATES_CHANNEL": {
-            "description": "For Example: https://t.me/pandaznetwork",
+            "description": "For Example: https://t.me/linksmoneyofficial",
             "required": false
         }
     },
