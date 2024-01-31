@@ -11,5 +11,5 @@ API_URL = environ.get('API_URL', 'https://linksmoney.in/api')
 WEB_NAME = environ.get('WEB_NAME', 'linksmoney.in')
 
 #Optional
-SUPPORT_GROUP = environ.get('SUPPORT_GROUP', '')
-UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', '')
+SUPPORT_GROUP = environ.get('SUPPORT_GROUP', 'https://t.me/linksmoneysupport')
+UPDATES_CHANNEL = environ.get('UPDATES_CHANNEL', 'https://t.me/linksmoneyofficial')
